@@ -16,7 +16,7 @@ function App() {
 	return (
 		<div>
 			<GlobalStyles darkMode={darkMode} />
-			<h3>Dark mode:</h3>
+			<h3>{darkMode ? "Dark Mode" : "Light Mode"}</h3>
 			<Toggler />
 		</div>
 	);
